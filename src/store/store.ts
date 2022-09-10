@@ -6,6 +6,9 @@ export type Store = {
   endDate: string
   agency?: string
   isSuccessful: boolean
+  loading: boolean,
+  error?: string,
+  launchList: Array<any>
 }
 
 const initialState: Store = {
@@ -13,6 +16,9 @@ const initialState: Store = {
   endDate: moment().format(''),
   agency: undefined,
   isSuccessful: false,
+  loading: false,
+  error: undefined,
+  launchList: [],
 }
 
 export const useStore = create((set) => ({
@@ -21,4 +27,7 @@ export const useStore = create((set) => ({
   setEndDate: (endDate: string) => set({ endDate }),
   setAgency: (agency: string) => set({ agency }),
   setIsSuccessful: (isSuccessful: boolean) => set({ isSuccessful }),
+  setLoading: (loading: boolean) => set({ loading }),
+  setError: (error: string) => set({ error }),
+  setLaunchList: (launchList: Array<any>) => set({ launchList }),
 }))
