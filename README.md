@@ -1,6 +1,6 @@
 # Wireframe
 
-![wireframe]('docs/wireframe.png')
+<img src="/src/docs/wireframe.png" alt="wireframe" title="Wireframe">
 
 ### `npm start`
 
