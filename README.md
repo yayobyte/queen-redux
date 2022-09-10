@@ -1,3 +1,7 @@
+# Wireframe
+
+![wireframe]('docs/wireframe.png')
+
 ### `npm start`
 
 Runs the app in the development mode.\
