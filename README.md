@@ -2,6 +2,11 @@
 
 <img src="/src/docs/wireframe.png" alt="wireframe" title="Wireframe">
 
+# Architecture
+
+<img src="/src/docs/architecture.png" alt="architecture" title="Architecture">
+<img src="/src/docs/legend.png" alt="legend" title="Legend">
+
 ### `npm start`
 
 Runs the app in the development mode.\
